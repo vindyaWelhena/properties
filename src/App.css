@@ -115,3 +115,37 @@
   opacity: 1;
   border-color: #333;
 }
+
+.property-tabs {
+  margin-top: 1.5rem;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.tab-buttons button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tab-buttons button.active {
+  background: #333;
+  color: #fff;
+}
+
+.tab-content {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+.floorplan-image {
+  max-width: 100%;
+  border-radius: 6px;
+}
