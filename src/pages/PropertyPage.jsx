@@ -18,8 +18,12 @@ function PropertyPage({ favourites, setFavourites }) {
     (fav) => fav.id === property.id
   );
 
-  function handleAddFavourite() {
-    if (!isFavourite) {
+  function handleToggleFavourite() {
+    if (isFavourite) {
+      // Remove from favourites
+      setFavourites(favourites.filter(fav => fav.id !== property.id));
+    } else {
+      // Add to favourites
       setFavourites([...favourites, property]);
     }
   }
@@ -47,10 +51,9 @@ function PropertyPage({ favourites, setFavourites }) {
       />
 
       <button
-        onClick={handleAddFavourite}
-        disabled={isFavourite}
+        onClick={handleToggleFavourite}
       >
-        {isFavourite ? "Favourited" : "Add to Favourites"}
+        {isFavourite ? "Remove from Favourites" : "Add to Favourites"}
       </button>
     </div>
   );

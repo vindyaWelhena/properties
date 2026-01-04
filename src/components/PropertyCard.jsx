@@ -5,8 +5,12 @@ function PropertyCard({ property, favourites, setFavourites }) {
     (fav) => fav.id === property.id
   );
 
-  function handleAddFavourite() {
-    if (!isFavourite) {
+  function handleToggleFavourite() {
+    if (isFavourite) {
+      // Remove from favourites
+      setFavourites(favourites.filter(fav => fav.id !== property.id));
+    } else {
+      // Add to favourites
       setFavourites([...favourites, property]);
     }
   }
@@ -32,10 +36,9 @@ function PropertyCard({ property, favourites, setFavourites }) {
           </Link>
 
           <button
-            onClick={handleAddFavourite}
-            disabled={isFavourite}
+            onClick={handleToggleFavourite}
           >
-            {isFavourite ? "Favourited" : "Add to Favourites"}
+            {isFavourite ? "Remove Favourite" : "Add to Favourites"}
           </button>
         </div>
       </div>
