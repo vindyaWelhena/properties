@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import propertiesData from "../data/properties.json";
+import ImageGallery from "../components/ImageGallery";
 
 function PropertyPage({ favourites, setFavourites }) {
   const { id } = useParams();
@@ -33,11 +34,9 @@ function PropertyPage({ favourites, setFavourites }) {
         {property.bedrooms} bedroom {property.type} ·{" "}
         {property.tenure}
       </p>
-
-      <img
-        src={property.picture}
-        alt={property.location}
-        className="property-main-image"
+      <ImageGallery
+        images={property.thumbnailimages}
+        altText={property.location}
       />
 
       <button
