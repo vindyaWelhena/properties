@@ -45,40 +45,47 @@ function SearchPage({ favourites, setFavourites }) {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="search-page">
-        <h1>Property Search</h1>
+        <div className="search-header">
 
-        <SearchForm
-          properties={propertiesData.properties}
-          setFilteredProperties={setFilteredProperties}
-        />
+            <h1>Property Search</h1>
+
+            <SearchForm
+            properties={propertiesData.properties}
+            setFilteredProperties={setFilteredProperties}
+            />
+         </div>
 
         <div className="content">
-          <Droppable droppableId="properties-droppable">
-            {(provided) => (
-              <div
-                ref={provided.innerRef}
-                {...provided.droppableProps}
-                className="results"
-              >
-                {filteredProperties.map((property, index) => (
-                  <PropertyCard
-                    key={property.id}
-                    property={property}
-                    favourites={favourites}
-                    setFavourites={setFavourites}
-                    index={index}
-                  />
-                ))}
-                {provided.placeholder}
-              </div>
-            )}
-          </Droppable>
+            <Droppable droppableId="properties-droppable">
+                {(provided) => (
+                <div
+                    ref={provided.innerRef}
+                    {...provided.droppableProps}
+                    className="results"
+                >
+                    {filteredProperties.map((property, index) => (
+                    <PropertyCard
+                        key={property.id}
+                        property={property}
+                        favourites={favourites}
+                        setFavourites={setFavourites}
+                        index={index}
+                    />
+                    ))}
+                    {provided.placeholder}
+                </div>
+                )}
+            </Droppable>
 
-          <Favourites
-            favourites={favourites}
-            setFavourites={setFavourites}
-          />
+            {/* FULL-WIDTH FAVOURITES SECTION */}
+            <div className="favourites-wrapper">
+                <Favourites
+                favourites={favourites}
+                setFavourites={setFavourites}
+                />
+            </div>
         </div>
+
       </div>
     </DragDropContext>
   );

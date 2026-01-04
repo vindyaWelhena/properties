@@ -186,13 +186,15 @@ button:focus-visible {
 .favourites {
   width: 300px;
   background: #f9f9f9;
-  padding: 1rem;
-  border-radius: 8px;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
   height: fit-content;
 }
 
-.favourites h3 {
+.favourites h2 {
   margin-top: 0;
+  color: red;
 }
 
 .favourite-item {
@@ -259,12 +261,30 @@ button:focus-visible {
   grid-template-columns: 1fr 300px;
   gap: 2rem;
   margin-top: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.favourites-card {
+  width: 100%;
 }
 
 .results {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+  .results {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .results {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Drag and drop styles */
@@ -300,7 +320,6 @@ button:focus-visible {
   font-size: 1rem;
   border-radius: 6px;
   border: 1px solid #ccc;
-  width: 100%;
 }
 
 .search-form button {
@@ -321,7 +340,7 @@ button:focus-visible {
 /* ===== Results Grid ===== */
 .results {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -333,6 +352,7 @@ button:focus-visible {
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
   display: flex;
   flex-direction: column;
+  color: #333; /* Ensure text is dark in property cards */
 }
 
 .property-image {
@@ -343,10 +363,52 @@ button:focus-visible {
 
 .property-info {
   padding: 1rem;
+  color: #333; /* Ensure text is dark in property cards */
+}
+
+.property-info h3 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.property-info p {
+  color: #333;
+  margin: 0.25rem 0;
 }
 
 .property-actions {
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
+}
+
+.property-actions a{
+  color: #333;
+}
+.property-actions button {
+  color: #fff;
+}
+
+.search-header {
+  max-width: 1100px;
+  margin: 0 auto 2rem auto;
+  text-align: center;
+}
+
+.search-header h1 {
+  margin-bottom: 1rem;
+}
+
+.favourites-wrapper {
+  grid-column: 1 / -1;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.favourites-card {
+  width: 100%;
+  background: #f5f5f5;
+  color: #333;
+  padding: 1.5rem;
+  border-radius: 12px;
 }

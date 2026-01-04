@@ -10,8 +10,8 @@ function Favourites({ favourites, setFavourites }) {
   };
 
   return (
-    <div className="favourites">
-      <h3>Favourites</h3>
+    <div className="favourites-card">
+      <h2>Favourites ({favourites.length})</h2>
       {favourites.length > 0 && (
         <button
           onClick={handleRemoveAllFavourites}
