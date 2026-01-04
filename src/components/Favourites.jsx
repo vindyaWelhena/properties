@@ -5,9 +5,30 @@ function Favourites({ favourites, setFavourites }) {
     setFavourites(favourites.filter(fav => fav.id !== propertyId));
   };
 
+  const handleRemoveAllFavourites = () => {
+    setFavourites([]);
+  };
+
   return (
     <div className="favourites">
       <h3>Favourites</h3>
+      {favourites.length > 0 && (
+        <button
+          onClick={handleRemoveAllFavourites}
+          className="remove-all-fav-btn"
+          style={{
+            marginBottom: '10px',
+            padding: '5px 10px',
+            backgroundColor: '#ff4444',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            cursor: 'pointer'
+          }}
+        >
+          Remove All
+        </button>
+      )}
       <Droppable droppableId="favourites-droppable">
         {(provided, snapshot) => (
           <div
