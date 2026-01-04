@@ -2,94 +2,81 @@
 	"properties": [
         {
             "id":"prop1",
-			"type":"House",
+			"type":"house",
             "bedrooms":3,
 			"price":750000,
 			"tenure":"Freehold",
 			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
 			"location":"Petts Wood Road, Petts Wood, Orpington BR5",
-			"picture":"house1.jpeg",
+			"picture":"/images/house1.jpeg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house1.jpeg",
-                "livingroom1.jpg",
-                "bathroom1.jfif",
-                "kitchen1.webp",
-                "bedroom1.jpeg",
-                "pool1.avif",
-                "garden1.webp",
-                "balcony1.jfif"
+                "/images/house1.jpeg",
+                "/images/livingroom1.jpg",
+                "/images/bathroom1.jfif",
+                "/images/kitchen1.webp",
+                "/images/bedroom1.jpeg",
+                "/images/pool1.avif",
+                "/images/garden1.webp",
+                "/images/balcony1.jfif"
             ],
-            "floorplan":"floorplan1.jpg",
+            "floorplan":"/images/floorplan1.jpg",
             "map":"<iframe src='https://maps.app.goo.gl/o1c7dtsem6vjPUYU9'></iframe>",
-            "added": {
-                "month":"November",
-                "day":10,
-                "year":2025
-            }
+            "added": "2025-11-10"
         },
 		{
             "id":"prop2",
-			"type":"Flat",
+			"type":"flat",
             "bedrooms":2,
 			"price":399995,
 			"tenure":"Freehold",
 			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
 			"location":"Crofton Road Orpington BR6",
-			"picture":"house2.jpeg",
+			"picture":"/images/house2.jpg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-               "house2.jpg",
-                "livingroom2.jpeg",
-                "bathroom2.jfif",
-                "kitchen2.jpg",
-                "bedroom2.webp",
-                "pool2.jpeg",
-                "garden2.jpg",
-                "balcony2.jpg"
+                "/images/house2.jpg",
+                "/images/livingroom2.jpeg",
+                "/images/bathroom2.jfif",
+                "/images/kitchen2.jpg",
+                "/images/bedroom2.webp",
+                "/images/pool2.jpeg",
+                "/images/garden2.jpg",
+                "/images/balcony2.jpg"
             ],
-            "floorplan":"floorplan2.webp",
+            "floorplan":"/images/floorplan2.webp",
             "map":"<iframe src='https://maps.app.goo.gl/WeHHvoyj7B8YhVLJ7'></iframe>",
-            "added": {
-                "month":"November",
-                "day":20,
-                "year":2025
-
-                
-            }
+            "added": "2025-11-20"
 
         },
 
 
         {
             "id":"prop3",
-			"type":"House",
+			"type":"house",
             "bedrooms":4,
 			"price":499999,
 			"tenure":"Freehold",
 			"description":"Well-presented four bedroom two-storey family residence located in the popular Peradeniya area of Kandy, within easy access to Peradeniya University, hospitals, public transport, and the city centre. The property comprises; two reception rooms, a spacious kitchen with pantry, and a ground floor bedroom with attached bathroom. To the first floor there are three further bedrooms and a family bathroom. Additional benefits include balcony views, ceiling fans, ample parking space, and a quiet residential setting.",
 			"location":"Kandy, Peradeniya",
-			"picture":"house3.jpg",
+			"picture":"/images/house3.jpg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house3.jpg",
-                "livingroom3.jpg",
-                "bathroom3.jpg",
-                "kitchen3.jfif",
-                "bedroom3.webp",
-                "pool3.jpg",
-                "garden3.jfif",
-                "balcony3.jpg"
+                "/images/house3.jpg",
+                "/images/livingroom3.jpg",
+                "/images/bathroom3.jpg",
+                "/images/kitchen3.jfif",
+                "/images/bedroom3.webp",
+                "/images/pool3.jpg",
+                "/images/garden3.jfif",
+                "/images/balcony3.jpg"
             ],
-            "floorplan":"floorplan3.webp",
+            "floorplan":"/images/floorplan3.webp",
             "map":"<iframe src='https://maps.app.goo.gl/RKFERAuS1TL8y6gn8'></iframe>",
-            "added": {
-                "month":"December",
-                "day":10,
-                "year":2025
+            "added":"2025-12-10"
 
                 
-            }
+            
             
         },
 
@@ -97,33 +84,29 @@
 
         {
             "id":"prop4",
-			"type":"Flat",
+			"type":"flat",
             "bedrooms":2,
 			"price":299995,
 			"tenure":"Freehold",
 			"description":"Modern two bedroom apartment situated in Pelawatte, Battaramulla, within easy access to government offices, supermarkets, schools, and main arterial roads. The apartment comprises; a comfortable living area, fitted pantry kitchen, two bedrooms, and a shared bathroom. Additional features include lift facilities, CCTV security, standby power supply, and a well-maintained common area.",
 			"location":"Battaramulla, Pelawatte",
-			"picture":"house4.jpg",
+			"picture":"/images/house4.jpg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house4.jpg",
-                "livingroom4.jpg",
-                "bathroom4.jpg",
-                "kitchen4.jpg",
-                "bedroom4.jpg",
-                "pool4.jpg",
-                "garden4.jpg",
-                "balcony4.jpg"
+                "/images/house4.jpg",
+                "/images/livingroom4.jpg",
+                "/images/bathroom4.jpg",
+                "/images/kitchen4.jpg",
+                "/images/bedroom4.jpg",
+                "/images/pool4.jpg",
+                "/images/garden4.jpg",
+                "/images/balcony4.jpg"
             ],
-            "floorplan":"floorplan4.webp",
+            "floorplan":"/images/floorplan4.webp",
             "map":"<iframe src='https://maps.app.goo.gl/6JoowFtAJ7XeVu769'></iframe>",
-            "added": {
-                "month":"December",
-                "day":14,
-                "year":2025
-
+            "added": "2025-12-14"
                 
-            }
+            
             
         },
 
@@ -131,99 +114,83 @@
 
         {
             "id":"prop5",
-			"type":"House",
+			"type":"house",
             "bedrooms":5,
 			"price":899999,
 			"tenure":"Freehold",
 			"description":"Spacious five bedroom detached property located in Kochchikade, Negombo, within close proximity to the beach, Negombo town, schools, and transport links. The property comprises; a large living area, formal dining room, fitted kitchen with pantry, and two ground floor bedrooms with attached bathrooms. To the first floor there are three further bedrooms and a family bathroom. Additional benefits include wide balconies, secured boundary walls, ample parking, and potential for guesthouse or holiday rental use.",
 			"location":"Negombo, Kochchikade",
-			"picture":"house5.webp",
+			"picture":"/images/house5.webp",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house5.webp",
-                "livingroom5.webp",
-                "bathroom5.jpg",
-                "kitchen5.jpg",
-                "bedroom5.jpg",
-                "pool5.jpg",
-                "garden5.jpg",
-                "balcony5.jpg"
+                "/images/house5.webp",
+                "/images/livingroom5.webp",
+                "/images/bathroom5.jpg",
+                "/images/kitchen5.jpg",
+                "/images/bedroom5.jpg",
+                "/images/pool5.jpg",
+                "/images/garden5.jpg",
+                "/images/balcony5.jpg"
             ],
-            "floorplan":"floorplan5.webp",
+            "floorplan":"/images/floorplan5.webp",
             "map":"<iframe src='https://maps.app.goo.gl/GF94Nu8mMZ1B4G689'></iframe>",
-            "added": {
-                "month":"December",
-                "day":24,
-                "year":2025
-
+            "added": "2025-12-24"
                 
-            }
+            
             
         },
 
 
         {
             "id":"prop6",
-			"type":"Flat",
+			"type":"flat",
             "bedrooms":2,
 			"price":399995,
 			"tenure":"Freehold",
 			"description":"Stylish two bedroom apartment situated in the heart of Kollupitiya, Colombo 03, within walking distance of shopping malls, offices, restaurants, and public transport links. The apartment comprises; an open-plan living and dining area, fitted modern kitchen, two bedrooms including a master with en-suite, and a shared bathroom. Additional features include lift access, 24-hour security, standby generator, and designated parking.",
 			"location":"Colombo 03, Kollupitiya",
-			"picture":"house6.jpg",
+			"picture":"/images/house6.jpg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house6.jpg",
-                "livingroom6.webp",
-                "bathroom6.jpg",
-                "kitchen6.jpg",
-                "bedroom6.webp",
-                "pool6.jpg",
-                "garden6.jfif",
-                "balcony6.jpeg"
+                "/images/house6.jpg",
+                "/images/livingroom6.webp",
+                "/images/bathroom6.jpg",
+                "/images/kitchen6.jpg",
+                "/images/bedroom6.webp",
+                "/images/pool6.jpg",
+                "/images/garden6.jfif",
+                "/images/balcony6.jpeg"
             ],
-            "floorplan":"floorplan6.jpg",
+            "floorplan":"/images/floorplan6.jpg",
             "map":"<iframe src='https://maps.app.goo.gl/TxRxJDeTDfYAvGfw5'></iframe>",
-            "added": {
-                "month":"January",
-                "day":1,
-                "year":2026
-
-                
-            }
+            "added":"2026-01-02"
             
         },
 
 
         {
             "id":"prop7",
-			"type":"House",
+			"type":"house",
             "bedrooms":3,
 			"price":49999,
 			"tenure":"Freehold",
 			"description":"Modern three bedroom semi-detached house situated in a rapidly developing residential neighbourhood in Yakkala, Gampaha, within convenient distance to the Colombo–Kandy main road, schools, supermarkets, and railway stations. The property comprises; an open-plan living and dining area, fitted kitchen, and guest washroom. To the first floor there are three bedrooms and a shared family bathroom. Additional features include roller shutter gates, tiled floors, overhead water tank, and a low-maintenance garden.",
 			"location":"Gampaha, Yakkala",
-			"picture":"house7.jpg",
+			"picture":"/images/house7.jpg",
 			"url":"properties/prop1.html",
             "thumbnailimages": [
-                "house7.jpg",
-                "livingroom7.jfif",
-                "bathroom7.jpg",
-                "kitchen7.jfif",
-                "bedroom7.png",
-                "pool7.webp",
-                "garden7.jpg",
-                "balcony7.webp"
+                "/images/house7.jpg",
+                "/images/livingroom7.jfif",
+                "/images/bathroom7.jpg",
+                "/images/kitchen7.jfif",
+                "/images/bedroom7.png",
+                "/images/pool7.webp",
+                "/images/garden7.jpg",
+                "/images/balcony7.webp"
             ],
-            "floorplan":"floorplan7.jpg",
+            "floorplan":"/images/floorplan7.jpg",
             "map":"<iframe src='https://maps.app.goo.gl/zXRW2mNjRduQ2rwZ8'></iframe>",
-            "added": {
-                "month":"January",
-                "day":4,
-                "year":2026
-
-                
-            }
+            "added":"2025-01-04"
             
         }
 ]}
