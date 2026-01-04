@@ -40,3 +40,33 @@
 .read-the-docs {
   color: #888;
 }
+
+.property-card {
+  display: flex;
+  gap: 1rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.property-image {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.property-info h3 {
+  margin: 0;
+}
+
+.property-actions {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.property-actions button {
+  cursor: pointer;
+}
