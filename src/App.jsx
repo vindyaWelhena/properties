@@ -4,11 +4,10 @@ import SearchPage from "./pages/SearchPage";
 import PropertyPage from "./pages/PropertyPage";
 
 function App() {
-  // Global favourites list
   const [favourites, setFavourites] = useState([]);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route
           path="/"
